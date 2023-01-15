@@ -1,8 +1,2 @@
-class Block {
-    constructor(data) {
-        this.data = data;
-    }
-    static hello() {
-        return "TypeScript";
-    }
-}
+import { init } from "./myPackage";
+init();
