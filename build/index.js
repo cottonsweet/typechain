@@ -1,2 +1,2 @@
-import { init } from "./myPackage";
-init();
+"use strict";
+console.log("hi");

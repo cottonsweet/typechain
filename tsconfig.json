@@ -2,11 +2,11 @@
   "include": ["src"],
   "compilerOptions": {
     "outDir": "build",
-    "esModuleInterop": true,
     "target": "ES6",
-    // lib > 라이브러리
-    "lib": ["ES6", "DOM"],
+    // 라이브러리
+    "lib": ["ES6"],
     "strict": true,
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
